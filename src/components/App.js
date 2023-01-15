@@ -8,8 +8,10 @@ const App = () => {
   }
   return (
     <div id="main">
-      <button id="button-a" onclick="clickA()">Button A</button>
+      <button id="button-a">Button A</button>
     </div>
+    var btn = document.getElementById("button-a");
+  button-a.addEventListener("click", clickA)
   )
 }
 
